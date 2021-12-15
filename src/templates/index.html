@@ -7,29 +7,49 @@
     <title>Web Portfolio</title>
   </head>
   <body>
-    <header>
-      <a class="navbar-brand" href="#">YOGI <span>DELFIANDRA</span></a>
+    <!-- Custom Cursor -->
+    <div class="cursor__1"></div>
+    <div class="cursor__2"></div>
 
-      <nav class="nav flex-column text-center navbar__a">
+    <div id="menu__hamburger"><i class="bi bi-list"></i></div>
+
+    <header class="d-flex">
+      <a class="navbar-brand" href="#">Portfo<span>lio.</span></a>
+
+      <nav class="navbar__a">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
         <a class="nav-link" href="#">About</a>
         <a class="nav-link" href="#">Service</a>
-        <a class="nav-link">Experience</a>
-        <a class="nav-link">Portfolio</a>
-        <a class="nav-link">Contact</a>
+        <a class="nav-link" href="#">Experience</a>
+        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="#">Contact</a>
       </nav>
 
-      <div class="social__media text-center">
-        <a href="#"><i class="bi bi-facebook"></i></a>
-        <a href="#"><i class="bi bi-twitter"></i></a>
-        <a href="#"><i class="bi bi-instagram"></i></a>
+      <div class="social__media">
+        <a href="#"><i class="bi bi-github"></i></a>
         <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-bootstrap"></i></a>
       </div>
     </header>
 
     <main>
-      <section class="homepage">
-        <div class="content"></div>
+      <section class="row align-items-center homepage">
+        <div class="col-7 home__content">
+          <span class="text__1">Hello, my name is</span>
+          <h1 class="text__2">Yogi Delfiandra</h1>
+          <p class="text__3">And I'm a <span class="typing"></span></p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            expedita libero officia? Vero, dolore reprehenderit eligendi laborum
+            unde necessitatibus saepe beatae eius accusamus cumque delectus modi
+            minus ipsam doloribus voluptatibus.
+          </p>
+        </div>
+        <div class="col-4 offset-1 image__profil">
+          <img src="../public/images/profile-1.png" alt="yogidelfiandra" />
+        </div>
       </section>
     </main>
   </body>

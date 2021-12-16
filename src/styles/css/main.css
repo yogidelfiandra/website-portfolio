@@ -15,8 +15,9 @@ html {
 }
 
 body {
-  padding-left: 350px;
+  padding-left: 21.75em;
   background-color: #e6e6ff;
+  overflow-x: hidden;
 }
 
 .cursor__1 {
@@ -63,14 +64,14 @@ body {
 
 #menu__hamburger {
   position: fixed;
-  top: 16px;
-  right: 16px;
+  top: 1rem;
+  right: 1rem;
   z-index: 10000;
   background: orange;
   color: white;
   border-radius: 0.5rem;
   padding: 0 10px;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 800;
   cursor: pointer;
   display: none;
@@ -78,7 +79,7 @@ body {
 
 header {
   position: fixed;
-  width: 350px;
+  width: 348px;
   top: 0;
   left: 0;
   bottom: 0;
@@ -97,7 +98,7 @@ header {
 }
 
 header .navbar-brand {
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 600;
   color: white;
   margin: 0;
@@ -108,7 +109,7 @@ header .navbar-brand span {
 }
 
 header .navbar__a a {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 20px 0;
   padding: 0;
   color: white;
@@ -124,7 +125,7 @@ header .social__media {
 }
 
 header .social__media a {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0 8px;
   color: white;
 }
@@ -143,17 +144,17 @@ section {
 }
 
 .homepage .home__content .text__1 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .homepage .home__content .text__2 {
-  font-size: 50px;
+  font-size: 3.25rem;
   font-weight: 600;
   margin-left: -3px;
 }
 
 .homepage .home__content .text__3 {
-  font-size: 30px;
+  font-size: 2rem;
   margin: 5px 0;
 }
 
@@ -163,6 +164,7 @@ section {
 }
 
 .homepage .home__content p {
+  font-size: 1rem;
   text-align: justify;
 }
 
